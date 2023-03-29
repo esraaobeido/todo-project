@@ -1,0 +1,154 @@
+ul {
+  position: relative;
+  list-style-type: style type;
+  padding: 0;
+  overflow:auto;
+  background-color: #807474;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+li {
+  float:inline-start;
+  text-align:center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 110px;
+}
+
+li a {
+  display:block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #585151;
+}
+h1 {
+  color: black;
+  margin-top: 100px;
+  padding: 50;
+  text-align: center;
+  font-family: Geneva, Tahoma, sans-serif;
+  position: relative;
+  
+}
+table, td, th {
+  border: 1px solid;
+   padding: 15px;
+  text-align: left;
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 120px;
+  margin-left: 320px;
+}
+th,td  {
+  height: 70px;
+  text-align: center;
+}
+footer {
+  background-color: #807474;
+  margin-left: -10px;
+  margin-right:-10px;
+  margin-top: 150px;
+  padding:0px;
+  position: relative;
+  text-align: center;
+}
+p5{
+  position:static;
+  margin: 100px;;
+}
+th {
+  margin: 100px;
+}
+img {
+  height:250px;
+  width:250px;
+  margin-top: -30px;
+  margin-left: 200px;
+}
+h2{
+  color: red;
+  margin-left: 700px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 110px;
+}
+h3 {
+  color:firebrick;
+  margin-left:600px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  margin-top: 200px;
+}
+
+p10 {
+  margin-left: 570px;
+  text-align: center;
+}
+p50{
+  text-align: center;
+}
+#mine {
+  border-radius: 50%;
+}
+p{
+  border: 1px solid rgb(5, 5, 5);
+  margin-top: -150px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 550px; 
+  width:500px;  
+  height:70px;
+  text-align: center;
+}
+p50{
+  width: 500px;
+font-size: 30px;}
+input {
+  width: 300px;
+  height: 30px;
+  margin:1%;
+}
+label {
+  text-align:left;
+  margin-top: 200px;
+  margin-bottom: 130px;
+  margin-right: 180px;
+  margin-left: 50px; 
+}
+#logoo {
+  width: 80px;
+  height: 60px;
+  margin-top: -10px;
+  margin-bottom: -25px;
+  margin-right: 70px;
+  margin-left: -20px; 
+}
+#sub{
+  background: #585151;
+  width: 150px;
+  height: 50px;
+}
+.pass{
+  padding: 30px;
+background:green;
+}
+.pass2{
+  padding: 30px;
+  background: orangered;
+}
+#msg{
+  height: 70px;
+  margin-right: 45px;
+}
+.solid{
+  margin-top: -150px;
+  font-size: 20px;
+  }
