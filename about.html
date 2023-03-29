@@ -1,59 +1,60 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>TODO2</title>
 </head>
 <style>
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-    
-    li {
-      float: left;
-    }
-    
-    li a {
-      display: block;
-      padding: 8px;
-    }
-    </style>
+  ul {
+    list-style-type: none;
+    margin: 100;
+    padding: 500;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 6px;
+  }
+  </style>
+    <link rel ="stylesheet" href="./css/style.css">
 <body>
 <header>
-    <ul>
-        <span><li><a href="index.html">Home</a></li></span>
-        <span><li><a href="news.asp">Next page</a></li></span>
-        <li><a href="contact.asp">Refresh</a></li>
-        <li><a href="about.asp">About</a></li>
-      </ul>
-    <span><img src="https://i.imgur.com/yYOvIT0.png" alt="logo" width="110"></span><span>ToDo</span>
+  <ul>
+    <li><img id="logoo" src="https://i.imgur.com/yYOvIT0.png" alt="logo"></li>
+       <li><a href="index.html">Home</a></li> 
+       <li><a href="news.asp">Next page</a></li>
+       <li><a href="contact.asp">Refresh</a></li>
+       <li><a href="about.html">About</a></li>
+     </ul> 
 </header>
 <main> <section>
     <h2>My Information</h2>
-    <img src="https://i.imgur.com/52P8MEk.jpg" alt="Girl in a jacket" width="100">
+    <div>
+    <img id="mine" src="https://i.imgur.com/52P8MEk.jpg" alt="my pic">
+  </div>
     </section>
-    <p>My name is Esraa Obeido, Iam 26 years old, Iam an electrical engineer, this is my Facebook account 
+    <p class="solid">My name is Esraa Obeido, Iam 26 years old, Iam an electrical engineer, this is my Facebook account 
         <a href="https://www.facebook.com/esraa.abedo">Esraa Abedo</a>
         </p>
-
-    
     <section>
-    <h2>Your Information</h2>
-    <p>Put you information here please:</p>
-    <p> <form action="/action_page.php" method="get">
+    <h3>Your Information</h3>
+    <p50> <form action="/action_page.php" method="get">
         <label for="fname">Name:</label>
         <input type="text" id="fname" name="fname"><br><br>
         <label for="lname">Email:</label>
         <input type="text" id="lname" name="lname"><br><br>
         <label for="fname">Message:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <input type="submit" value="Submit">
-      </form> </p>
+        <input id="msg" type="text" id="fname" name="fname"><br><br>
+        <input id="sub" type="submit" value="Submit">
+      </form>
+     </p50>
     </section> 
 </main>
-<footer>
- <span><p>© 2009@todo, Inc.</p></span><span>contact info  00962799365965 </span><span></span>
-</footer>
+<footer><p5>© 2009@todo, Inc.</p5>contact info 00962799365965 </p5>
 </body>
 </html> 
