@@ -2,56 +2,79 @@
 <html>
 <head>
     <style>
+      body  {
+  background-image: url("https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?cs=srgb&dl=pexels-hasan-albari-1229861.jpg&fm=jpg");
+      }
         ul {
-          list-style-type: none;
-          margin: 100;
-          padding: 500;
-          overflow: hidden;
-          text-align: center;
-        }
-        
-        li {
-          float: left;
-        }
-        
-        li a {
-          display: block;
-          padding: 6px;
-        }
-        </style>
-        <link rel ="stylesheet" href="./css/style.css">
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float:left;
+}
+
+li a {
+  display: table;
+  width: 100%;
+  height: 10;
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+</style>
+
+<link rel ="stylesheet" href="./css/style.css">
 <title>TODO</title>
 </head>
 <body>
 <header>
+  <script src="./app.js"></script>
     <ul>
-      <li><img id="logoo" src="https://i.imgur.com/yYOvIT0.png" alt="logo"></li>
         <li><a href="index.html">Home</a></li> 
-        <li><a href="news.asp">Next page</a></li>
-        <li><a href="contact.asp">Refresh</a></li>
         <li><a href="about.html">About</a></li>
       </ul> 
    <h1>ToDo List</h1>
 </header>
 <main> 
-    <table>
-    <tr>
-      <th>Tasks</th>
-      <th>Status</th>
-    </tr>
-    <tr>
-      <td>Task1</td>
-      <td><span class="pass">Passed</span></td>
-    </tr>
-    <tr>
-      <td>Task2</td>
-      <td><span class="pass2">Passed</span></td>
-    </tr>
-    <tr>
-        <td>Task3</td>
-        <td><span class="pass2">Passed</span></td>
-      </tr>
-  </table> 
+  <div class="container">
+      <div class="drop_box">
+          <h4>Upload you task here</h4>
+        <input type="file" hidden accept=".doc,.docx,.pdf" id="fileID" style="display:none;">
+        <button class="btn">Choose File</button>
+      </div>
+    </div>
+   <table class="styled-table">
+    <thead>
+        <tr>
+            <th>Tasks</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <body>
+        <tr>
+            <td>Task1</td>
+            <td>Passed</td>
+        </tr>
+        <tr class="active-row">
+            <td>Task2</td>
+            <td>Not passed</td>
+        </tr>
+       <tr class="active-row">
+            <td>Task3</td>
+            <td>passed</td>
+        </tr>
+       <tr class="active-row">
+            <td>Task4</td>
+            <td>passed</td>
+        </tr>
+    </body>
+</table>
 </main>
 <footer><p5>© 2009@todo, Inc.</p5>contact info 00962799365965 </p5>
 </footer>
